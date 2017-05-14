@@ -136,6 +136,7 @@ footer {
     flex-direction: column;
     background-color: #4b3e4b;
     color: #fff;
+    padding-bottom: 1em;
 }
 
 footer a img {
