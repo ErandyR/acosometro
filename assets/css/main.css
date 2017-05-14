@@ -37,9 +37,64 @@ header img {
     height: 80%;
 }
 
-#home img {
-    width: 50%;
+#home {
+    width: 100%;
 }
+
+#botones {
+    height: 80%;
+    width: 50%;
+    flex-direction: column;
+    padding: 0 auto;
+    text-align: center;
+}
+
+#divUno {
+    width: 53%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#divUno a {
+    height: 100%;
+}
+
+#divUno a img {
+    height: 100%;
+}
+
+#divDos {
+    width: 80%;
+    height: 30%;
+    margin-top: -10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#divDos a {
+    height: 100%;
+}
+
+#divDos a img {
+    height: 100%;
+}
+
+#divTres {
+    width: 60%;
+    height: 30%;
+    margin-top: -10%;
+}
+
+#divTres a {
+    height: 100%;
+}
+
+#divTres a img{
+    height: 100%;
+}
+
+
 
 #deQueVa {
     background-color: #A355A5;
@@ -79,7 +134,7 @@ header img {
 
 footer {
     flex-direction: column;
-    background-color: #3D373D;
+    background-color: #4b3e4b;
     color: #fff;
 }
 
@@ -87,9 +142,3 @@ footer a img {
     height: 3em;
     margin: 2em;
 }
-
-
-
-
-
-
