@@ -114,6 +114,7 @@ header img {
 
 #teSuena {
     background-color: #3A253A;
+    padding: 2em 0 7em;
 }
 
 #actua {
@@ -169,8 +170,9 @@ input{
     margin-top: -1.7%;
 }
 label{
-    font-size: 3vw;
+    font-size: 1.5vw;
     color: #fff;
+    margin-left: 1%;
 }
 .bg-term{
     background-image: url(../imgs/04termometro.png);
@@ -183,8 +185,8 @@ label{
     text-align: center;
     color: #fff;
     font-weight: 700;
-    font-size: 4vw;
-    margin: 2.5%;
+    font-size: 2.5vw;
+    margin: 3%;
 }
 .linea{
     width: 25%;
