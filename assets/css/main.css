@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -13,12 +14,15 @@ body {
 #home,
 #deQueVa,
 #noEsNormal,
-#teSuena,
 #actua,
 #experiencias {
     height: 100%;
+    width: 100%;
 }
-
+#teSuena{
+    padding: 2% 0 3% 0;
+    width: 100%;
+}
 .container {
     display: flex;
 }
@@ -143,3 +147,71 @@ footer a img {
     height: 3em;
     margin: 2em;
 }
+
+.title{
+    width: 100%;
+}
+.borde{
+    border:solid white 2px;
+}
+.content-column{
+    width: 33.3%;
+    height: 550px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.rigth{
+    align-items: flex-end;
+}
+.left{
+    align-items: flex-start;
+}
+input{
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    margin-top: -1.7%;
+}
+label{
+    font-size: 3vw;
+    color: #fff;
+}
+.bg-term{
+    background-image: url(../imgs/04termometro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 11.4%;
+    height: 550px;
+}
+.title{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 4vw;
+    margin: 2.5%;
+}
+.linea{
+    width: 25%;
+    height: 420px;
+    margin-left: 50%;
+}
+.iluminati{
+    visibility: hidden;
+    width: 35px;
+    height: 45px;
+    margin-left: 34%;
+    margin-bottom: -3px;
+}
+.bg-verde{
+    background-color: #8cc63f;
+}
+.bg-amarillo{
+    background-color: #FFD400;
+}
+.bg-naranja{
+    background-color: orange;
+}
+.bg-rojo{
+    background-color: red;
+}
+
