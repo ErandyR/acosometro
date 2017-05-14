@@ -1,3 +1,4 @@
+
 var checks=document.getElementsByTagName("input");
 var large=checks.length;
 var count=0;
@@ -7,8 +8,6 @@ for(var i=0; i<large;i++){
 
 }
 
-
-
 function counter(){
   var cant=0;
   if (document.getElementById('checkbox1').checked)
@@ -16,7 +15,9 @@ function counter(){
     cant++;
   }
   if (document.getElementById('checkbox2').checked)
+
   {	
+
     cant++;
   }
   if (document.getElementById('checkbox3').checked)
@@ -52,6 +53,7 @@ function counter(){
   }
   console.log("cant");
   if (cant==1) {
+
 	iluminati[9].style.visibility="visible";
 	}
 	if (cant==2) {
@@ -81,5 +83,6 @@ function counter(){
 	if (cant==10) {
 	iluminati[0].style.visibility="visible";
 	}
+
 };
 
