@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+#home,
+#deQueVa,
+#noEsNormal,
+#teSuena,
+#actua,
+#experiencias {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #93278F;
+    height: 80px;
+}
+
+header img {
+    height: 80%;
+}
+
+#home img {
+    width: 50%;
+}
+
+#deQueVa {
+    background-color: #A355A5;
+}
+
+#deQueVa img {
+    height: 100%;
+}
+
+#noEsNormal {
+    background-color: #F2D6F2;
+}
+
+#noEsNormal img {
+    height: 100%;
+}
+
+#teSuena {
+    background-color: #3A253A;
+}
+
+#actua {
+    background-color: #DFC6E0;
+}
+
+#actua img {
+    height: 100%;
+}
+
+#experiencias {
+    background-color: #926296;
+}
+
+#experiencias img {
+    height: 100%;
+}
+
+footer {
+    flex-direction: column;
+    background-color: #3D373D;
+    color: #fff;
+}
+
+footer a img {
+    height: 3em;
+    margin: 2em;
+}
+
+
+
+
+
+
