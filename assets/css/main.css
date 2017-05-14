@@ -1,4 +1,5 @@
 
+
 * {
     margin: 0;
     padding: 0;
@@ -118,7 +119,7 @@ header img {
 
 #teSuena {
     background-color: #3A253A;
-    padding: 2em 0 7em;
+    padding: 2em 0;
 }
 
 #actua {
@@ -179,13 +180,13 @@ label{
     margin-left: 1%;
 }
 .bg-term{
-    background-image: url(../imgs/04termometro.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #fff;
+    border: 1.5em solid purple;
+    border-radius: 6em;
     width: 11.4%;
     height: 550px;
 }
-itle{
+.title{
     text-align: center;
     color: #fff;
     font-weight: 700;
@@ -201,9 +202,9 @@ itle{
 .iluminati{
     visibility: hidden;
     width: 35px;
-    height: 45px;
-    margin-left: 34%;
-    margin-bottom: -3px;
+    height: 44px;
+    margin-left: 36%;
+    margin-bottom: 7%;
 }
 .bg-verde{
     background-color: #8cc63f;
@@ -217,4 +218,3 @@ itle{
 .bg-rojo{
     background-color: red;
 }
-
